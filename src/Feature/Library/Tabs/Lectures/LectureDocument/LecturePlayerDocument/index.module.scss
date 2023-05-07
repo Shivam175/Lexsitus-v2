@@ -1,0 +1,62 @@
+@import "/src/Styles/variables";
+
+.videoPlayerDocument {
+    width: 100%;
+    height: 100%; //80vh;
+    margin-right: 0;
+    overflow: auto;
+
+    .videoPlayerContainer {
+        margin-bottom: 8rem;
+        margin-top: 1px;
+    }
+
+    .videoInformation {
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: row;
+        margin-top: -5rem;
+        padding-bottom: 150px;
+
+        :global {
+            .metadata-div {
+                width: 100%;
+                font-family: $fontFamilyHalvetica;
+                font-size: $fontSmall;
+            }
+
+            .meta-heading {
+                color: $lxsPurple1;
+                font-weight: 700;
+            }
+
+            .meta-text {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.lectureListContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+
+        :global {
+            .lectureCardImage {
+                width: 50%;
+                margin-bottom: 10px;
+            }
+
+            .lectureCardTitle {
+                width: 50%;
+                color: $lxsBlue4;
+            }
+        }
+    }
+}

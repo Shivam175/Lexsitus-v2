@@ -1,0 +1,31 @@
+@import "../../../Styles/variables";
+@import "../../../Styles//mixins";
+
+.lecturesTree {
+    @include treeNodes($color_lectures);
+
+}
+
+.prepTree {
+    @include treeNodes($color_prepworks);
+}
+
+.MOPD {
+    @include treeNodes($color_mopd);
+}
+
+.EOC {
+    @include treeNodes($color_eoc);
+}
+
+.EOD {
+    @include treeNodes($color_eocd);
+}
+
+.cliccTree {
+    @include treeNodes($color_clicc);
+}
+
+.caseLawTree {
+    @include treeNodes($color_caselaw);
+}

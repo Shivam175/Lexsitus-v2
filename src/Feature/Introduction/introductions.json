@@ -1,0 +1,117 @@
+[
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_narindersingh_english.jpg",
+        "name": "Narinder Singh",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_narindersingh_hindi.mp4",
+        "languages": [
+            {
+                "name": "hindi",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_narindersingh_hindi.mp4"
+            },
+            {
+                "name": "english",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_narindersingh_english.mp4"
+            }
+        ]
+    },
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_benjaminferencz.jpg",
+        "name": "Benjamin B. Ferencz",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_benjaminferencz.mp4",
+        "languages": [
+            {
+                "name": "english",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_benjaminferencz.mp4"
+            }
+        ]
+    },
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_liudaqun_chinese.jpg",
+        "name": "LIU Daqun",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_liudaqun_chinese.mp4",
+        "languages": [
+            {
+                "name": "chinese",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_liudaqun_chinese.mp4"
+            }
+        ]
+    },
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_marcperrindebrichambaut_english.jpg",
+        "name": "Marc Perrin de Brichambaut",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_marcperrindebrichambaut_french.mp4",
+        "languages": [
+            {
+                "name": "french",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_marcperrindebrichambaut_french.mp4"
+            },
+            {
+                "name": "english",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_marcperrindebrichambaut_english.mp4"
+            }
+        ]
+    },
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_mortenbergsmo.jpg",
+        "name": "Morten Bergsmo",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_mortenbergsmo.mp4",
+        "languages": [
+            {
+                "name": "english",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_mortenbergsmo.mp4"
+            }
+        ]
+    },
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/preamble_richardgoldstone.jpg",
+        "name": "Richard J. Goldstone",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_richardgoldstone.mp4",
+        "languages": [
+            {
+                "name": "english",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_richardgoldstone.mp4"
+            }
+        ]
+    },
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_alexkoenig.jpg",
+        "name": "Alexa Koenig",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_alexkoenig.mp4",
+        "languages": [
+            {
+                "name": "english",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_alexkoenig.mp4"
+            }
+        ]
+    },
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_mirnagoransky_english.jpg",
+        "name": "Mirna Goransky",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_mirnagoransky_spanish.mp4",
+        "languages": [
+            {
+                "name": "spanish",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_mirnagoransky_spanish.mp4"
+            },
+            {
+                "name": "english",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_mirnagoransky_english.mp4"
+            }
+        ]
+    },
+    {
+        "poster": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_sergebrammertz_english.jpg",
+        "name": "Serge Brammertz",
+        "default_video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_sergebrammertz_german.mp4",
+        "languages": [
+            {
+                "name": "german",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_sergebrammertz_german.mp4"
+            },
+            {
+                "name": "english",
+                "video": "https://lexsitus.cmn-kh.org/icc_statute/lexsituswelcome_sergebrammertz_english.mp4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+@import "../../../Styles/_variables";
+
+.listDrawerRoot {
+    :global {
+        div.open {
+            top: 120px;
+            min-height: 100%;
+        }
+
+        div.half-open {
+            transition: all 0.3s ease-in;
+        }
+
+        div.closed {
+            top: calc(100% - 6px);
+        }
+
+        div.paneHeader {
+            background-color: $grey2;
+            height: 30px;
+        }
+
+        ul.currentList {
+            margin: 14.5px 0;
+
+            .currentListItem {
+                width: 80px;
+                padding: 5px;
+                cursor: pointer;
+                display: inline-block;
+                margin: 0 3px;
+            }
+        }
+
+        .readingListRoot {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: calc(100% - 95px);
+            margin-top: -120px;
+            background: #e0e0e0;
+            z-index: 200;
+            min-height: 120px;
+            transition: all 0.3s ease-in;
+        }
+    }
+}
+
+.iconContainer {
+    :global {
+        .ToeAppDocument {
+            background-position: -166px 0 !important;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "../../Styles/_variables";
+
+.left-buttons-list-default {
+    left: 3px;
+    top: 0%;
+    padding: 2px 0;
+
+    button:not(hover) {
+        color: #cccccc;
+    }
+}
+
+.right-buttons-list-default {
+    right: 3px;
+    top: 0%;
+    padding: 2px 0;
+
+    button:not(hover) {
+        color: #cccccc;
+    }
+}

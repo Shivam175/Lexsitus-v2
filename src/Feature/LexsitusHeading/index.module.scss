@@ -1,0 +1,73 @@
+@use "sass:color";
+@import "../../Styles/variables";
+
+#lexsitus_heading_root {
+
+    .lexsitus_big_heading {
+        font-family: $fontFamilyBlack;
+        text-shadow: 2px 2px 4px #292929e6;
+        font-size: $fontDisplay2;
+        font-weight: 900;
+        cursor: pointer;
+        color: $grey5;
+        margin: 0;
+        line-height: 1;
+        cursor: default;
+        text-align: center;
+
+        .big_heading {
+            color: $grey5;
+            text-decoration: none;
+
+            .purple_span {
+                color: $purple;
+                text-shadow: 1px 0, 0 1px $purple;
+            }
+
+            .white_span {
+                text-shadow: 1px 0 $grey5;
+            }
+        }
+    }
+
+    .lexsitus_sub_heading {
+        font-size: $fontHeadline;
+        text-align: center;
+        margin: 0;
+        color: $grey4;
+        font-weight: 600;
+        font-family: $fontFamilyBlack;
+        line-height: 1.5;
+    }
+
+    .empty_styling {
+        font-size: inherit;
+        line-height: inherit;
+        margin: 0px;
+
+        .logo_heading {
+            font-weight: 900;
+            text-shadow: 2px 2px 4px color.adjust($grey2, $alpha: -0.1);
+            color: $white;
+            height: 40px;
+            font-size: 31.5px;
+            font-family: $fontFamilyBlack;
+            text-decoration: none;
+            line-height: 40px;
+            margin-left: 16px;
+
+            .logo_purple_text {
+                color: $purple;
+                text-shadow: 0.2px 0 $purple;
+            }
+
+            .logo_white_text {
+                text-shadow: 0.5px 0 $white;
+            }
+        }
+    }
+}
+
+.background_color_div {
+    background: $grey2;
+}

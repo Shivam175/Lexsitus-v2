@@ -1,0 +1,54 @@
+@import "../../Styles/variables";
+
+div.editorHeader {
+    display: flex;
+
+    :global {
+        .paneHeader {
+            flex: 1;
+            background: $lxsGrey5;
+            color: $white;
+            height: 26px;
+            position: relative !important;
+            width: 100%;
+
+            .leftButtonList {
+                left: 3px;
+                top: 4%;
+                padding: 0px 0;
+                width: 40% !important;
+
+                button:not(hover) {
+                    color: $lxsGrey4;
+                }
+            }
+
+            .rightButtonList {
+                right: 12px;
+                top: 2px;
+                padding: 0px 0;
+
+                button:not(hover) {
+                    color: $lxsGrey4;
+                }
+            }
+        }
+    }
+}
+
+div.closedHeader {
+    :global {
+        div.paneHeader {
+            position: inherit !important;
+            width: 100vw !important;
+        }
+    }
+}
+
+.editorContainer {
+    :global {
+        .ql-editor {
+            min-height: 85vh !important;
+        }
+    }
+}

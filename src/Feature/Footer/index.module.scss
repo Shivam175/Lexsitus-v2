@@ -1,0 +1,58 @@
+@import "../../Styles//variables";
+
+$footerHeight : 60px;
+.Footer {
+    display: flex;
+    width: 100%;
+    line-height: 16px;
+    height: $footerHeight;
+    position: fixed;
+    bottom: 0px;
+}
+.left-section {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    background: $grey4;
+    padding: 18px 20px ;
+
+    .left-section-para{
+      text-align: center;  
+      font-size: $fontMicro;
+      line-height: 1.2; 
+    }
+
+}
+.right-section {
+    background-color: $lxsGrey14;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    .listItem{
+        margin-right: 15px;
+        img {
+            width: fit-content;
+            height: 40px;
+        }
+    }
+   .cilrap{
+    img{
+        height: 30px;
+    }
+   }
+   .warrior {
+    img {
+        height: 50px;
+    }
+   }
+   .INLA{
+    img {
+        height: 50px;
+    }
+   }
+
+}
+
+

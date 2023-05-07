@@ -1,0 +1,22 @@
+.ForgotPassword {
+    line-height: 1.5;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+    display: contents;
+    .form_content {
+        margin-left: 30%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        color: #cccccc;
+        text-align: center;
+        padding-bottom: 50px;
+        background-color: transparent;
+        p {
+            margin-bottom: 30px;
+        }
+    }
+}

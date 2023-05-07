@@ -1,0 +1,22 @@
+@import "../../Styles//variables";
+.FormHeadingAndButton {
+    display: flex;
+    gap: 5rem;
+
+    .button {
+        position: relative;
+        left: -75px;
+        top: -10px;
+        background-color: transparent;
+        transition: 0.3s ease-out;
+        div {
+            img {
+                width: 15px;
+                height: 15px;
+            }
+            span {
+                color: $grey4;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.PdfDocument{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.pdfobject-container{
+    height: 80%;
+}
+.metaDataDiv{
+    display: flex;
+    font-family: Helvetica,sans-serif;
+    line-height: 1.42;
+    padding: 0px 5rem 0px 5rem;
+    .metaheading{
+        width: 50%;
+        font-size: 14px;
+        text-align: right;
+        color: #92A35F;
+    }
+    .metatext{
+        width: 50%;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 14px;
+        .link{
+            color:blue;
+            cursor: pointer;
+        }
+    }
+}

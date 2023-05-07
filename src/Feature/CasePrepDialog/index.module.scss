@@ -1,0 +1,11 @@
+@import "../../Styles/_variables";
+
+.casePrepDiv {
+    width: 50%;
+    height: 100vh;
+    padding: 40px;
+    text-align: center;
+    font-family: $fontFamilyHalvetica;
+    border-left: 2px solid $white;
+    overflow: auto;
+}

@@ -1,0 +1,112 @@
+// sass mixins for animation
+@import './variables.scss';
+
+@mixin animate($animation, $duration, $method, $times) {
+    animation: $animation $duration $method $times;
+}
+
+
+@mixin keyframes($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin treeNodes($color) {
+    :global {
+        .paneHeader {
+            background-color: $color;
+        }
+
+        .menu-node-text {
+            color: $color;
+            padding-top: 5px;
+        }
+
+        .node-heading {
+            color: $color;
+            padding: 5px 10px 5px 15px;
+        }
+
+        .node-sub-heading {
+            color: $color !important;
+        }
+
+        .content-node {
+            color: $color;
+        }
+    }
+}
+
+@mixin toaepTreeNodes($color) {
+    :global {
+        .paneHeader {
+            background-color: $color;
+        }
+
+        .menu-node-text {
+            color: $color;
+            font-family: $fontFamilyBlack;
+            font-size: $fontBody;
+            padding: 5px 0;
+            line-height: 1.4;
+        }
+
+        .content-node {
+            color: $color;
+            font-size: $fontSmall;
+            margin-top: 5px;
+            padding-left: 35px;
+            line-height: 1.5;
+
+            i {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@mixin libraryDrawer {
+    .active {
+        background-color: $grey2;
+        margin-left: 0;
+    }
+
+    .node-sub-heading {
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .node-heading {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .actionDiv {
+        opacity: 0;
+    }
+
+    .preNav:hover>.actionDiv {
+        opacity: 1;
+    }
+
+    .arrow {
+        color: $grey4;
+        font-size: $fontTitle;
+        padding-top: 4px;
+    }
+
+    .text-node {
+        padding-left: 55px;
+        margin-bottom: 10px;
+        padding-right: 10px;
+    }
+
+    .content-node {
+        padding-left: 0;
+    }
+
+    .contentNode {
+        padding-left: 5px;
+    }
+}

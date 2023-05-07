@@ -1,0 +1,72 @@
+.readingListItemRoot {
+    text-align: center;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 14.5px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+
+    div {
+        justify-content: center;
+    }
+}
+
+.readingListIconContainer {
+    display: inline;
+
+    span.romeStatute {
+        background-position: 0 0;
+    }
+
+    span.elementsOfCrime {
+        background-position: -39px 0;
+    }
+
+    span.commentary {
+        background-position: -199px 0;
+    }
+
+    span.caseLaw {
+        background-position: -79px 0;
+    }
+
+    span.prepWorks {
+        background-position: -252px 0;
+    }
+
+    span.mofDigest {
+        background-position: -120px 0;
+    }
+
+    span.eocDigest {
+        background-position: -120px 0;
+    }
+
+    span.note {
+        background-position: -277px 0;
+    }
+
+    span.toaepDoc {
+        background-position: -159px 0;
+    }
+
+    .itemIcon {
+        width: 38px !important;
+        height: 38px !important;
+    }
+}
+
+.itemLabel {
+    margin: 6px 0 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14.5px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    text-align: center;
+}

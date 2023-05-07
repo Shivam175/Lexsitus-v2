@@ -1,0 +1,40 @@
+@import "../../Styles/variables";
+
+$fontWeightMedium: 400;
+
+.list-component-list-item {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: $fontWeightMedium;
+    color: $white;
+    font-family: $fontFamilyBlack;
+}
+
+.list-component-list {
+    list-style-type: none;
+    margin: 14.5px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    height: inherit;
+    align-content: space-between;
+}
+
+.list-component-container {
+    height: inherit;
+    justify-content: space-between;
+    color: $white;
+    display: flex;
+}
+
+.story-div-height {
+    height: 66vh;
+    background-color: $grey2;
+}
+
+.faculty-story-div-height {
+    height: 56vh;
+    background-color: $grey2;
+}

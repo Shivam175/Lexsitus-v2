@@ -1,0 +1,24 @@
+@import '../../Styles/_variables.scss';
+
+.card-matrix-list {
+    display: flex;
+    gap: 0 6px;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+
+
+.card-matrix-list-item {
+   width: 32%;
+   &.small{
+    width: 18%;
+   }
+}
+
+
+.story-card-matrix-div {
+    background-color: $grey2;
+    margin: 12px 0px;
+}

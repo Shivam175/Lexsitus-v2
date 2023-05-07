@@ -1,0 +1,23 @@
+.firstTableColumn {
+    width: 33%;
+}
+
+.secondTableColumn {
+    width: 25%;
+}
+
+.thirdTableColumn {
+    width: 17%;
+}
+
+.fourthTableColumn {
+    width: 25%;
+}
+
+.iconContainer {
+    :global {
+        .PreparatoryWork {
+            background-position: -238px 0 !important;
+        }
+    }
+}

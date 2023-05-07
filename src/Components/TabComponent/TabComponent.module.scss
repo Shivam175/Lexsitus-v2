@@ -1,0 +1,46 @@
+@import "../../Styles/_variables.scss";
+
+$fontWeightBold: 600;
+$fontWeightNormal: 400;
+$activeTabBorderBottom: 2px;
+$paddingMicro: 4px;
+$paddingSmall: 16px;
+
+.tab_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    font-family: $fontFamilyBlack;
+    flex-direction: row;
+    width: 100%;
+
+    .tab_list_item {
+        margin-right: auto;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        text-align: center;
+
+        .tab_button {
+            color: $white;
+        }
+
+        .inactive {
+            font-weight: $fontWeightNormal;
+            border-bottom: $activeTabBorderBottom solid $grey5;
+
+            &.active {
+                background-color: $grey3;
+                font-weight: $fontWeightBold;
+                border-bottom: $activeTabBorderBottom solid $grey1;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import "../../Styles/variables";
+.LeftPane {
+    .header {
+        background: $color_lectures1;
+        height: 30px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .title {
+        color: $white;
+    }
+    .tree {
+        overflow: auto;
+        height: calc(100vh - #{2 * $headerHeight} - #{$headerSearchHeight});
+        overflow-x: hidden;
+    }
+}

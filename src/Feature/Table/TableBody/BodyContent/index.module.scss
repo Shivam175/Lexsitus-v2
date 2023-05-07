@@ -1,0 +1,6 @@
+@import "../../../../Styles/variables";
+
+.bodyContainer {
+    height: calc(100vh - $headerHeight - $readingListTableHeaderHeight - 
+    $readingListTableTitleBarHeight);
+}

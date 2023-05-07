@@ -1,0 +1,14 @@
+@import "/src/Styles/_variables.scss";
+
+.middlepane{
+	height: 100%;
+    width: 100%;
+    margin-left: 2px;
+    // overflow: auto;
+
+    .header {
+        background: $color_lectures1;
+        width: 100%;
+        height: 30px;
+    }
+}

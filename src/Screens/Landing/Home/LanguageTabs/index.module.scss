@@ -1,0 +1,17 @@
+@import "../../../../Styles/variables";
+
+.landing-page-tab-list {
+
+    .lp-tab-list-item {
+        font-weight: 400;
+        border-bottom: 2px solid $lxsGrey5;
+        padding: 4px 16px 0px 16px;
+        color: $white;
+        font-size: $fontBody;
+
+        &.lp-tab-list-item-active {
+            font-weight: 600;
+            border-bottom: 2px solid $lxsGrey1;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import '../../Styles/_variables.scss';
+
+.slider-container {
+    margin: 0 auto;
+    padding: 0px 10px;
+
+    .slide-content {
+        height: 79vh;
+        width: 63vw;
+        padding: 0px 8px 10px;
+        display: flex !important;
+        justify-content: center !important;
+        overflow: hidden;
+        // align-items: center !important;
+    }
+}
+
+.story-slider-container {
+    position: relative;
+    padding: 0 30px;
+    background-color: $grey2;
+}

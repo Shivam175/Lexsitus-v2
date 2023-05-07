@@ -1,0 +1,62 @@
+.LoginForm {
+    line-height: 1.5;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    display: contents;
+    .heading {
+        display: flex;
+        gap: 5rem;
+        margin-bottom: 20px;
+    }
+    .form_content {
+        margin-left: 30%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        color: #cccccc;
+        text-align: center;
+        padding-bottom: 50px;
+        background-color: transparent;
+        p {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .socialdiv {
+            p {
+                margin-bottom: 20px;
+            }
+            text-align: center;
+            margin: 60px auto 40px auto;
+        }
+        .socialmedia {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+            .facebook:hover {
+                background-position: 65px 65px;
+            }
+            .google:hover {
+                background-position: 0px 65px;
+            }
+        }
+        .register_button {
+            color: #cccccc;
+            border: 1px solid #cccccc;
+            width: 100%;
+            min-height: 40px;
+            padding-top: 5px;
+            background: #212121;
+            border-radius: 5px;
+            margin-bottom: 1.5rem;
+        }
+        
+      
+    }
+
+    a {
+        margin-top: 25px;
+        color: #cccccc;
+    }
+}
+

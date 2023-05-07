@@ -1,0 +1,97 @@
+@import "../../Styles/variables.scss";
+
+.Header {
+    display: flex;
+    height: $headerHeight;
+    background: $lxsGrey9;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    &.isTransparent {
+        background: none;
+    }
+
+    .leftContainer {
+        flex: 1;
+        flex-grow: 1;
+    }
+}
+
+.Header-background-rightOnly {
+    background: $lxsGrey9;
+
+    .right-header {
+        position: absolute;
+        right: 0px;
+    }
+}
+
+.left-header {
+    display: flex;
+    flex: 1;
+
+    .left-header-ul {
+        display: flex;
+        margin: 3px;
+        margin-left: 2rem;
+        width: 100%;
+
+        .left-header-li {
+            list-style-type: none;
+            width: 100%;
+            padding-left: 60px;
+
+            .left-header-button {
+                text-decoration: none;
+                color: $lxsGrey10 !important;
+                border: none;
+                text-align: center;
+            }
+
+            .active {
+                color: $lxsPurple1 !important;
+            }
+        }
+
+        .left-header-li:hover {
+            background-color: $lxsheaderbackgroundhover;
+        }
+
+        .mainLibIcon {
+            .left-header-button {
+                .left-header-icon {
+                    background-position: -10px -3px;
+                    height: 27px;
+                }
+            }
+        }
+    }
+}
+
+.right-header {
+    display: flex;
+    margin: 0px;
+    padding-right: 1rem;
+    width: 170px;
+    height: 40px;
+    list-style-type: none;
+
+    .list-item {
+        padding: 0.4rem;
+
+        .list-item-button {
+            border: none;
+        }
+    }
+
+    .tutorials {
+        padding-top: 9px;
+    }
+}
+
+.account {
+    font-size: 35px;
+}

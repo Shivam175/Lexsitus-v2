@@ -1,0 +1,91 @@
+{
+    "videoList": [
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/av_intro.jpg",
+            "name": "General Lexsitus Tutorial",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/av_intro.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/registration_login.jpg",
+            "name": "Registration and Login",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/registration_login.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/interface_overview.jpg",
+            "name": "Interface Overview",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/interface_overview.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/window_functions.jpg",
+            "name": "Window Functions",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/window_functions.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/rome_menu.jpg",
+            "name": "Rome Statute Menu",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/rome_menu.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/split_window.jpg",
+            "name": "Split Window Tabs",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/split_window.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/search.jpg",
+            "name": "Search",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/search.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/citation.jpg",
+            "name": "Citation Access",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/citation.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/metadata.jpg",
+            "name": "Metadata Access",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/metadata.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/reading_list.jpg",
+            "name": "Create Personal Reading Lists",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/reading_list.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/notes.jpg",
+            "name": "Notes",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/notes.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/contact_us_report.jpg",
+            "name": "Contact us",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/contact_us_report.mp4"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/plamenac/210421-plamenac-thumbnail.jpg",
+            "name": "Dr. Jelena Plamenac on Lexsitus on the Occasion of the Release of Lexsitus Lectures in Arabic",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/plamenac/210421-plamenac.mp4",
+            "tracks": [
+                {
+                    "kind": "subtitles",
+                    "label": "English subtitles",
+                    "src": "https://cilrap-lexsitus.org/subtitles/210421-plamenac.vtt",
+                    "srclang": "en",
+                    "default": true
+                },
+                {
+                    "kind": "subtitles",
+                    "label": "Arabic subtitles",
+                    "src": "https://cilrap-lexsitus.org/subtitles/210421-plamenac-ar.vtt",
+                    "srclang": "ar"
+                }
+            ],
+            "slug": "plamenac-lexsitus-lectures-arabic"
+        },
+        {
+            "poster": "https://lexsitus.cmn-kh.org/lex_web/tutorials/210620-lexsitus-lectures-thumbnail.png",
+            "name": "How to use the Lexsitus-Lectures resource.",
+            "video": "https://lexsitus.cmn-kh.org/lex_web/tutorials/210620-lexsitus-lectures.mp4",
+            "slug": "how-to-use-lexsitus-lectures"
+        }
+    ]
+}

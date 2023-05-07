@@ -1,0 +1,188 @@
+@import "../../Styles/_variables.scss";
+
+$msgDialogFontColor : #444;
+$msgDialogColor : #f0f0f0;
+$crossBtnActiveColor : #4d4d4d;
+$crossBtnColor : #bbb;
+
+@keyframes msg-dialog-flyin {
+    from {
+        opacity: 0;
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.dialog-root-theme {
+    touch-action: pan-y;
+    -webkit-user-drag: none;
+    padding-bottom: 160px;
+    padding-top: 160px;
+    box-sizing: border-box;
+    overflow: auto;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    .dialog-root {
+        position: fixed;
+        left: 35%; //32-36%;
+        top: 22%; //22-25%;
+        background: $msgDialogColor;
+        border-radius: 5px;
+        color: $msgDialogFontColor;
+        font-family: Helvetica, sans-serif;
+        font-size: 17.6px; //1.1em;
+        line-height: 24px; //1.5em;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 16px; //1em;
+        width: 450px;
+        pointer-events: all;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: msg-dialog-flyin;
+        text-align: initial;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: msg-dialog-flyin;
+
+        .msg-dialog-heading {
+            font-size: $fontHeadline;
+            margin: 5px 0;
+            line-height: 1.1;
+            color: $msgDialogFontColor;
+            font-family: Helvetica, sans-serif;
+            margin: 5px 0px;
+            font-weight: 400;
+        }
+
+        .msg-dialog-body {
+            margin: 16.5px 0px;
+            color: $msgDialogFontColor;
+            font-family: Helvetica, sans-serif;
+            font-size: 16.5px; //h5-16px
+            line-height: 24px; //1.5em;
+            font-weight: normal;
+        }
+
+        .btn-container {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+
+            .right-align-btn {
+                width: 100%;
+                margin-left: auto;
+                box-sizing: border-box;
+                padding: 0 12px; //0.75rem;
+                min-height: 1px;
+                text-align: right;
+
+                .defaultBtn {
+                    background: $grey2;
+                    padding: 0 12px;
+                    min-height: 45px;
+                    line-height: 45px;
+                    position: relative;
+                    cursor: pointer;
+                    display: inline-block;
+                    overflow: hidden;
+                    user-select: none;
+                    vertical-align: middle;
+                    z-index: 1;
+                    will-change: opacity, transform;
+                    transition: .3s ease-out;
+                    text-decoration: none;
+                    color: $white;
+                    text-align: center;
+                    letter-spacing: .5px;
+                    border-radius: 2px;
+                    height: 36px;
+                    text-transform: uppercase;
+                }
+
+                .defaultBtn:hover {
+                    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%),
+                        0 1px 7px 0 rgb(0 0 0 / 12%),
+                        0 3px 1px -1px rgb(0 0 0 / 20%);
+                }
+
+                .authenticate-dialog-btn {
+                    background: $grey3;
+                    font-size: $fontBody;
+                    box-shadow: none;
+                    color: $grey6;
+                    min-height: inherit;
+                    height: auto;
+                    line-height: 35px;
+                    padding: 0 12px;
+                    text-decoration: none;
+                    text-align: center;
+                    letter-spacing: .5px;
+                    border: none;
+                    border-radius: 2px;
+                    display: inline-block;
+                }
+
+                .close-btn-margin-right {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .btn-container::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .cross-btn {
+            background: none;
+            border: none;
+            margin: 0;
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 1px 6px;
+        }
+
+        .cross-btn:active {
+            color: $crossBtnActiveColor;
+        }
+
+        .cross-btn::before {
+            display: block;
+            padding: 3px;
+            background: 0 0;
+            color: $crossBtnColor;
+            content: '\00D7';
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: center;
+            font-family: $fontFamilyArial;
+            cursor: pointer;
+        }
+    }
+}

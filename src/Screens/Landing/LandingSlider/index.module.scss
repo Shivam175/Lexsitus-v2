@@ -1,0 +1,12 @@
+@import "../../../Styles/variables";
+
+.landing-slider-container {
+    position: relative;
+    height: 100%;
+    max-width: 100%;
+}
+
+.story-slider-container {
+    padding: 0 30px;
+    background-image: linear-gradient($lxsGrey7, $lxsGrey8);
+}

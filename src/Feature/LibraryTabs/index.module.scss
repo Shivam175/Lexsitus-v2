@@ -1,0 +1,73 @@
+@import "../../Styles/_variables.scss";
+
+.libraryTabLabel::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    top: -2.1px;
+    left: -5px;
+    border-radius: 4px;
+}
+
+.lectures::before {
+    background-color: $color_lectures;
+}
+
+.clicc::before {
+    background-color: $color_clicc;
+}
+
+.prep_works::before {
+    background-color: $color_prepworks;
+}
+
+.case_law::before {
+    background-color: $color_caselaw;
+}
+
+.elements_of_crime::before {
+    background-color: $color_eoc;
+}
+
+.elements_digest::before {
+    background-color: $color_eocd;
+}
+
+.means_of_proof::before {
+    background-color: $color_mopd;
+}
+
+.libraryTabsRoot {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 64px;
+    margin-top: 4px;
+
+    .libraryTabsContainer {
+        display: flex;
+        flex-direction: row;
+        max-width: 100vw;
+        margin: 0 auto;
+        text-align: center;
+        background: $grey2;
+        box-shadow: $black 0px 6px 15px inset;
+        height: 28px;
+    }
+}
+
+.libraryTab {
+    color: $grey9;
+    font-weight: 400;
+    padding: 3px;
+    padding: 4px;
+    font-size: 14.5px;
+    border-right: 2px solid $black;
+
+    &.libraryTabActive {
+        color: $white;
+        background: $black;
+    }
+}

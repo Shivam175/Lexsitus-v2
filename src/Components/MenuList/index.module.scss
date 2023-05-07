@@ -1,0 +1,25 @@
+@import "../../Styles/_variables.scss";
+
+.menulist_ul {
+    width: 100%;
+    line-height: 1.5;
+    font-family: $fontFamilyBlack;
+   
+
+    li {
+        list-style-type:none;
+        display: flex;
+        text-align: left;
+        max-width: 340px;
+        margin: 8px auto;
+        font-size: $fontBody;
+        line-height: 21px;
+         a{
+            list-style-type: none;
+            display: flex;
+            gap:1rem;
+            color:$grey4!important;
+         }
+    }
+}
+

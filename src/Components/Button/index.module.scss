@@ -1,0 +1,79 @@
+@import "../../Styles/variables.scss";
+
+.btn,
+.link,
+.anchor {
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    color: $black;
+    background-color: $grey7;
+}
+.contained-white {
+    background-color: $black;
+    color: $white;
+    &:hover {
+        background-color: $purple;
+    }
+}
+.contained-blue {
+    background-color: $lxsBlue1;
+    color: $white;
+    border: 1px solid $lxsBlue1;
+}
+.contained-grey {
+    background-color: $purple;
+    color: $grey7;
+}
+
+.contained-transparent {
+    background-color: transparent;
+    color: $white;
+}
+
+.outlined-white {
+    border: 1px solid $black;
+    background-color: transparent;
+    color: $white;
+}
+
+.outlined-blue {
+    border: 1px solid $lxsBlue1;
+    background-color: transparent;
+    color: $lxsBlue1;
+}
+.outlined-grey {
+    border: 1px solid $purple;
+    background-color: transparent;
+    color: $grey7;
+}
+.text-white {
+    background-color: transparent;
+    color: $white;
+}
+.text-transparent {
+    background-color: transparent;
+}
+.text-blue {
+    color: $lxsBlue1;
+    background-color: transparent;
+}
+.text-grey {
+    color: $grey7;
+    background-color: transparent;
+}
+.rounded {
+    border-radius: 20px;
+}
+
+.square {
+    border-radius: 0px;
+}
+// .link {
+//     color: $grey7;
+// }
+.anchor {
+    color: $lxsBlue1;
+}

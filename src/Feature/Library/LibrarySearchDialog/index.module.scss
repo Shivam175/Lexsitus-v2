@@ -1,0 +1,136 @@
+@import "../../../Styles//variables";
+
+.searchDiv {
+    padding: 40px;
+    z-index: 1;
+    background: $black1;
+
+    :global {
+        .root-paginate {
+            @apply pt-6 pb-6;
+        }
+
+        .pagination-container {
+            @apply flex mt-1 mb-1;
+        }
+
+        .pagination-page-class {
+            @apply px-3 mb-1 text-xl rounded-sm;
+        }
+
+        .pagination-active-class {
+            @apply text-white bg-orange1;
+        }
+
+
+        .tab-list {
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            height: 28px;
+            flex-grow: 1 !important;
+            flex-basis: auto !important;
+            border-right: 1px solid $lxsGrey5;
+        }
+
+        .active {
+            background-color: $lxsGrey7 !important;
+        }
+
+        .tab-list-button {
+            background-color: transparent !important;
+            border-bottom: none !important;
+            width: 100%;
+        }
+
+        .all_results {
+            background: $grey10;
+        }
+
+        .lectures {
+            background: $color_lectures;
+        }
+
+        .clicc {
+            background: $purple;
+        }
+
+        .rpe {
+            background: $lxsBlue3;
+        }
+
+        .preparatory {
+            background: $color_prepworks;
+        }
+
+        .case_law {
+            background: $color_caselaw;
+        }
+
+        .icc_eoc {
+            background: $color_eoc;
+        }
+
+        .elements_digest {
+            background: $color_eocd;
+        }
+
+        .Mopd {
+            background: $color_mopd;
+        }
+
+        .checkbox-input {
+            appearance: none;
+            height: 10px;
+            width: 10px;
+            margin-top: 10px;
+            background: $grey3;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .checkbox-label {
+            margin-right: 1.7rem;
+            cursor: pointer;
+            color: $grey2;
+            margin-top: 5px;
+            font-size: 13px;
+        }
+
+        .checkbox-input:checked {
+            height: 10px;
+            width: 5px;
+            margin-top: 9px;
+            margin-right: 7px;
+            transform: rotate(40deg);
+            background-color: transparent;
+            border-top: 1px solid transparent;
+            border-left: 1px solid transparent;
+            border-right: 1px solid $blue2;
+            border-bottom: 1px solid $blue2;
+        }
+
+        .metadata-div {
+            width: 100%;
+            font-family: $fontFamilyHalvetica;
+            margin-left: 10px;
+            font-size: 15px;
+        }
+
+        .meta-heading {
+            font-weight: 700;
+        }
+
+        .meta-text {
+            margin-left: 10px;
+        }
+
+    }
+}
+
+
+.links {
+    a {
+        color: $lxsBlue4;
+    }
+}

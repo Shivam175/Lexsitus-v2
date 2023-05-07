@@ -1,0 +1,42 @@
+@import "../../../Styles/_variables.scss";
+
+.landing-root {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+
+    .root-block {
+        height: 100%;
+        overflow: auto;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .landing-container {
+            width: 100%;
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+
+            .drawer-container {
+                width: 30%;
+                background-color: $lxsGrey9;
+            }
+
+            .info-container {
+                width: 70%;
+                background-image: linear-gradient($lxsGrey7, $lxsGrey8);
+                padding-top: $headerHeight;
+
+                .content-container {
+                    height: 95%;
+                    max-width: 100%;
+                    padding: 0 40px;
+                }
+            }
+        }
+    }
+}

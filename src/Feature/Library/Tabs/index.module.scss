@@ -1,0 +1,48 @@
+@import "../../../Styles/_variables";
+@import "../../../Styles/_mixins";
+
+.authenticateMsgDialogBtn {
+    background: $grey3;
+    font-size: 14px;
+    box-shadow: none;
+    color: $grey6;
+    min-height: inherit;
+    height: auto;
+    line-height: 35px;
+    padding: 0 12px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .5px;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.lecturesTree {
+    @include treeNodes($color_lectures);
+
+}
+
+.prepTree {
+    @include treeNodes($color_prepworks);
+}
+
+.MOPD {
+    @include treeNodes($color_mopd);
+}
+
+.EOC {
+    @include treeNodes($color_eoc);
+}
+
+.EOD {
+    @include treeNodes($color_eocd);
+}
+
+.cliccTree {
+    @include treeNodes($color_clicc);
+}
+
+.caseLawTree {
+    @include treeNodes($color_caselaw);
+}

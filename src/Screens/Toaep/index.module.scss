@@ -1,0 +1,25 @@
+@import "../../Styles/_variables";
+@import "../../Styles/mixins";
+
+.toaep {
+    @include toaepTreeNodes($color_caselaw1);
+
+    :global {
+        .splitpane {
+            top: 40px;
+            left: 0;
+        }
+    }
+
+    .drawerClassName {
+        :global {
+            .half-open {
+                top: calc(100% - 40px) !important;
+            }
+
+            .closed {
+                top: calc(100% + 50px) !important;
+            }
+        }
+    }
+}

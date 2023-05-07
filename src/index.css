@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --readingListTableHeaderHeight: 64px;
+  --readingListTableTitleBarHeight: 30px;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+@keyframes animate-slide-exit-top {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+
+@keyframes animate-slide-enter-bottom {
+  0% {
+    -webkit-transform: translateY(70px); /*1000*/
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* below style is for image of intros html */
+#right-to-left {
+  float: right;
+  width: auto;
+  margin-left: 10px;
+}
+
+#left-to-right {
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+.ql-color-green {
+  color: #008a00;
+}
+
+.ql-color-red {
+  color: #e60000;
+}
+
+.ql-color-orange {
+  color: #f90;
+}
+
+.ql-color-purple {
+  color: #93f;
+}
+
+.ql-color-gray {
+  color: #394857;
+}
+
+
+
+.input-box {
+  height: 40px !important;
+  background-color: transparent;
+  border-bottom: 1px solid #9E9E9E;
+
+}
+
+input::placeholder {
+  color: #9E9E9E;
+}
+
+.select-option {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 2.5rem !important;
+  border-radius: 2px;
+}
+
+.submit-btn {
+  /* margin-top: 10px !important; */
+  background-color: #212121 !important;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 40px !important;
+  font-size: 14.5px !important;
+  padding: 2px;
+  color: white;
+}
+
+/* .action-center{
+  display: block !important;
+} */
+
+.error-text {
+  color: #FF365E !important;
+  opacity: 1;
+  font-size: 12.5px;
+}
+
+.react-split__pane {
+  overflow: initial !important;
+}

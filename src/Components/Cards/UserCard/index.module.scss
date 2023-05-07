@@ -1,0 +1,65 @@
+@import "../../../Styles/_variables.scss";
+
+.card_root {
+    background: $lxsGrey12;
+    display: flex;
+    height: 100px;
+
+    &.user_card_root {
+        height: 150px;
+    }
+}
+
+.user_card_container {
+    width: 150px;
+    display: contents;
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.info_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: $fontFamilyBlack;
+    width: 100%;
+    text-align: initial;
+    padding: 10px 16px;
+
+    &.user_card_info {
+        padding: 10px 5px 10px 15px;
+    }
+
+    .user_card_name {
+        color: $purple;
+        font-size: 14px;
+        margin: 3px 0;
+        font-weight: 600;
+        line-height: 1.1;
+        display: flex;
+    }
+
+    .user_card_description {
+        color: $grey5;
+        font-size: 12px;
+        margin-bottom: 0px;
+        line-height: 14px;
+        display: flex;
+        font-family: $fontFamilyBlack;
+    }
+
+    .user_card_margin {
+        margin-top: 9px;
+    }
+}
+
+.story-wrapper-div {
+    width: 300px;
+}
+
+.text-story-wrapper-div {
+    width: 150px;
+}

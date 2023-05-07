@@ -1,0 +1,7 @@
+.menuNodeRoot {
+    :global {
+        .editNodeParent:hover .editNodeChild {
+            visibility: visible !important;
+        }
+    }
+}

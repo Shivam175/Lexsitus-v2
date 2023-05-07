@@ -1,0 +1,106 @@
+@import "../../Styles/variables";
+
+@keyframes editUserdialog {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.userList {
+    :global {
+        .root-paginate {
+            @apply pt-3 pb-3;
+        }
+
+        .pagination-container {
+            @apply flex justify-center mt-1 mb-1;
+        }
+
+        .pagination-page-class {
+            @apply px-3 mb-1 text-xl rounded-sm;
+        }
+
+        .pagination-active-class {
+            @apply text-white bg-blue2;
+        }
+    }
+}
+
+.user-dialog {
+    animation: editUserdialog .5s;
+    font-family: $fontFamilyHalvetica;
+
+    .heading {
+        font-size: 2.28rem;
+        font-family: inherit;
+    }
+
+    :global {
+        .submit-btn {
+            background-color: $white2 !important;
+            color: $black;
+            align-items: center;
+        }
+
+        .submit-btn:hover {
+            background-color: $lxsGrey4 !important;
+        }
+
+        .input-box {
+            border-bottom: 1px solid $grey11;
+        }
+
+        .input-box:focus {
+            border-bottom: 1px solid $blue2;
+            box-shadow: 0 1px 0 0 $blue2;
+        }
+
+        .searchInput {
+            outline: none;
+            width: 100%;
+            height: 40px;
+            background-color: transparent;
+            border-bottom: 1px solid $grey11;
+
+        }
+
+        .checkbox-input {
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid $lxsGrey14;
+            border-radius: 1px;
+            transition: .2s;
+        }
+
+        .checkbox-input:checked {
+            position: relative;
+            bottom: 0.4rem;
+            width: 0.75rem;
+            height: 1.4rem;
+            border-top: 2px solid transparent;
+            border-left: 2px solid transparent;
+            border-right: 2px solid $blue2;
+            border-bottom: 2px solid $blue2;
+            transform: rotate(40deg);
+        }
+
+        .checkbox-name {
+            gap: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0.5rem;
+
+        }
+
+
+
+    }
+}

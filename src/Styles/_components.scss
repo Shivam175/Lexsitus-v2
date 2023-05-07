@@ -1,0 +1,43 @@
+@import './variables.scss';
+@import "./digest-quill-styles.scss";
+
+@layer components {
+    .btn-primary {
+        // This is just for testing
+        background-color: red;
+        color: white;
+    }
+
+    $fontWeightMedium: 400;
+
+    .lp-names-list-root {
+        height: 420px; //55vh
+        max-width: 100%;
+
+        .lp-names-list-header {
+            font-size: 32.25px;
+            line-height: 1.094;
+            margin: 30.5px 0px 24.4px 0px;
+            font-weight: $fontWeightMedium;
+            color: $white;
+            font-family: $fontFamilyBlack;
+        }
+    }
+
+    .authenticate-msg-dialog-btn {
+        background: $grey3;
+        font-size: 14px;
+        box-shadow: none;
+        color: $grey6;
+        min-height: inherit;
+        height: auto;
+        line-height: 35px;
+        padding: 0 12px;
+        text-decoration: none;
+        text-align: center;
+        letter-spacing: .5px;
+        border: none;
+        border-radius: 2px;
+    }
+
+}

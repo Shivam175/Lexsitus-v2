@@ -1,0 +1,14 @@
+@import "../../Styles/variables";
+
+.listItem {
+    :global {
+        .active {
+            color: $white;
+            background-color: $purple;
+
+            span {
+                color: $white;
+            }
+        }
+    }
+}

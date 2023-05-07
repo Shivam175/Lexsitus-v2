@@ -1,0 +1,65 @@
+@import "../../../Styles/_variables";
+@import "../../../Styles/mixins";
+.library-drawer {
+    :global {
+        .drawer-buttons {
+            width: 60px;
+            height: calc(100vh - #{$headerHeight} - #{$headerSearchHeight});
+            background: $grey3;
+            color: $white;
+            z-index: 1;
+            font-family: $fontFamilyBlack;
+            box-shadow: 1px 0 2px $grey2;
+
+            cursor: pointer;
+
+            .button-root-container {
+                @apply h-[50%] uppercase min-w-[60px]  hover:bg-purple2;
+            }
+
+            .rome {
+                background: $purple2;
+                border-bottom: 1px solid $lxsGrey4;
+            }
+            .button-div {
+                @apply -rotate-90 relative top-[50%]  w-[200px] text-center -left-[70px];
+            }
+        }
+
+        .drawer-container {
+            height: calc(100vh - #{$headerHeight} - #{2 * $headerSearchHeight});
+            width: 400px;
+            max-width: 400px;
+            position: absolute;
+            transition: all 0.5s ease-in-out;
+            left: 0;
+            bottom: 0;
+            background: $grey3;
+            font-size: $fontSmall;
+            font-family: $fontFamilyBlack;
+            color: $white;
+            z-index: 1;
+            box-shadow: 1px 0 2px $grey2;
+
+            .drawer-header {
+                @apply flex justify-end h-10 bg-lxsGrey9 shadow-sm shadow-lxsGrey7;
+            }
+            .global-tree-container {
+                height: calc(
+                    100vh - #{2 * $headerHeight} - #{$headerSearchHeight}
+                );
+                overflow: auto;
+
+               @include libraryDrawer;
+            }
+        }
+    }
+}
+.drawer {
+    transform: translateX(-85%);
+    opacity: 0;
+    visibility: hidden;
+}
+.buttons_container {
+    transition: all 0.5s ease-out;
+}

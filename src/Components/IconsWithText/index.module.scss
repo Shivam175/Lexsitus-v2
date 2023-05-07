@@ -1,0 +1,10 @@
+.iconWithtext{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap:5px;
+}
+.icon_right{
+     flex-direction: row-reverse;
+     width: fit-content;
+}

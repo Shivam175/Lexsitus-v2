@@ -1,0 +1,22 @@
+.editorContainer {
+    min-width: 300px;
+    max-width: 600px;
+    background: white;
+
+    :global {
+        .editor-main {
+            display: flow-root;
+
+            .quill {
+                .ql-toolbar {
+                    display: flex;
+                }
+
+                .ql-container {
+                    min-height: 84px !important;
+                    max-height: 140px !important;
+                }
+            }
+        }
+    }
+}

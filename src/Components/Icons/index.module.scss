@@ -1,0 +1,349 @@
+$staticpathlibIntroIcons: "/assets/img/img/lib-intro-icons.png";
+$staticPathHomeLeftPanel: "/assets/img/img/home-left-panel.png";
+$staticpathLibraryTop: "/assets/img/img/library_top.png";
+$staticpathGlobalIcon: "/assets/img/img/global-icon.png";
+$staticpathDocumentIcon: "/assets/img/img/document-icons.png";
+$staticHomepage: "/assets/img/img/homepage-icons.png";
+$staticpathSmIcons: "/assets/img/img/sm-icons.png";
+$staticpathGlobalMenuIcon: "/assets/img/img/global-menu-icon.png";
+$staticpathHomeTopRight: "/assets/img/img/home-top-right-1.png";
+$staticpathCpijLogo: "/assets/img/img/cpij-logo.png";
+$staticpathLexitusIcon: "/assets/img/img/lexsitus-icons38.png";
+$staticpathCilrem-Helm-logo: "/assets/img/img/cilrap-HELM-logo.png";
+
+.css-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &.lib-intro-icons-order {
+        background: url($staticpathlibIntroIcons) -23px -21px;
+        width: 88px;
+        height: 85px;
+    }
+
+    &.lib-intro-icons-microscope {
+        background: url($staticpathlibIntroIcons) -145px -15px;
+        width: 88px;
+        height: 90px;
+    }
+
+    &.lib-intro-icons-radio {
+        background: url($staticpathlibIntroIcons) -260px -7px;
+        width: 118px;
+        height: 97px;
+    }
+
+    &.home-left-panel-team {
+        background: url($staticPathHomeLeftPanel) 10px 15px no-repeat;
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+    }
+
+    &.home-left-panel-toep {
+        background: url($staticPathHomeLeftPanel) 0px -45px no-repeat;
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+    }
+
+    &.home-left-panel-cmnHub {
+        background: url($staticPathHomeLeftPanel) 0px -90px no-repeat;
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+    }
+
+    &.home-left-panel-zoomin {
+        background: url($staticPathHomeLeftPanel) 0px -135px no-repeat;
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+    }
+
+    &.home-left-panel-matrix {
+        background: url($staticPathHomeLeftPanel) 0px -183px no-repeat;
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+    }
+
+    &.library-top-mainLibIcon {
+        background: url($staticpathLibraryTop) -10px 5px no-repeat;
+        width: 28px;
+        height: 40px;
+    }
+
+    &.library-top-toep {
+        background: url($staticpathLibraryTop) -39px -2px no-repeat;
+        width: 25px;
+        height: 30px
+    }
+
+    &.library-top-cmnHub {
+        background: url($staticpathLibraryTop) -65px -2px no-repeat;
+        width: 25px;
+        height: 30px
+    }
+
+    &.library-top-zoomin {
+        background: url($staticpathLibraryTop) -96px -2px no-repeat;
+        width: 25px;
+        height: 30px
+    }
+
+    &.library-top-matrix {
+        background: url($staticpathLibraryTop) -125px -2px no-repeat;
+        width: 25px;
+        height: 30px
+    }
+
+    &.lexsitus-icons38-playButton {
+        background: url($staticpathLexitusIcon) 0.5px 0.5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    &.lexsitus-icons38-message {
+        background: url($staticpathLexitusIcon) -41px 0.5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    &.global-icon-cap {
+        background: url($staticpathGlobalIcon) 100px 0px;
+        width: 45px;
+        height: 45px;
+    }
+
+    &.global-icon-colorCap {
+        background: url($staticpathGlobalIcon) -50px 0px;
+        width: 45px;
+        height: 45px;
+    }
+
+    &.global-icon-lib {
+        background: url($staticpathGlobalIcon) 100px -50px;
+        width: 45px;
+        height: 45px;
+    }
+
+    &.global-icon-colorLib {
+        background: url($staticpathGlobalIcon) -50px -50px;
+        width: 45px;
+        height: 45px;
+    }
+
+    &.global-icon-matrix {
+        background: url($staticpathGlobalIcon) 100px 50px;
+        width: 45px;
+        height: 45px;
+    }
+
+    &.global-icon-colorMatrix {
+        background: url($staticpathGlobalIcon) -50px 50px;
+        width: 45px;
+        height: 45px;
+    }
+
+    // width 2rem
+
+    &.document-icons-home {
+        background: url($staticpathDocumentIcon) -6px 0px;
+        width: 25px;
+        height: 35px;
+    }
+
+    &.document-icons-minar {
+        background: url($staticpathDocumentIcon) -44px 0px;
+        width: 27px;
+        height: 35px;
+    }
+
+    &.document-icons-order {
+        background: url($staticpathDocumentIcon) -84px 0px;
+        width: 27px;
+        height: 35px;
+    }
+
+    &.document-icons-filledBook {
+        background: url($staticpathDocumentIcon) -124px 0px;
+        width: 27px;
+        height: 35px;
+    }
+
+    &.document-icons-bookZoom {
+        background: url($staticpathDocumentIcon) -90px 0px;
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    }
+
+    &.lexitus-icons38-prep {
+        background: url($staticpathLexitusIcon) -82px 0.5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    &.lexitus-icons38-Case {
+        background: url($staticpathLexitusIcon) -124px 0.5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    &.lexitus-icons38-Eoc {
+        background: url($staticpathLexitusIcon) -166px 0.5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    &.lexitus-icons38-Eocd {
+        background: url($staticpathLexitusIcon) -208px 0.5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    &.lexitus-icons38-Mopd {
+        background: url($staticpathLexitusIcon) -250px 0.5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    &.document-icons-message {
+        background: url($staticpathDocumentIcon) -204px 0px;
+        width: 27px;
+        height: 35px;
+    }
+
+
+    &.document-icons-sketch {
+        background: url($staticpathDocumentIcon) -131px 0px;
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    }
+
+    &.document-icons-folder {
+        background: url($staticpathDocumentIcon) 30px 0px;
+        width: 25px;
+        height: 35px;
+    }
+
+    &.homepage-icons-tutorials {
+        background: url($staticHomepage) 0px 1px;
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+    }
+
+    &.homepage-icons-edit {
+        background: url($staticHomepage) 0px -63px;
+        width: 22px;
+        height: 22px;
+        background-size: cover;
+    }
+
+    &.sm-icons-google {
+        background: url($staticpathSmIcons) 0px 0px;
+        width: 65px;
+        height: 65px;
+    }
+
+    &.sm-icons-facebook {
+        background: url($staticpathSmIcons) 65px 0px;
+        width: 65px;
+        height: 65px;
+    }
+
+    &.sm-icons-twitter {
+        background: url($staticpathSmIcons) 133px 0px;
+        width: 65px;
+        height: 65px;
+    }
+
+    &.sm-icons-colorGoogle {
+        background: url($staticpathSmIcons) 0px 64px;
+        width: 65px;
+        height: 65px;
+    }
+
+    &.sm-icons-colorFacebook {
+        background: url($staticpathSmIcons) 65px 64px;
+        width: 65px;
+        height: 65px;
+    }
+
+    &.sm-icons-colorTwitter {
+        background: url($staticpathSmIcons) 133px 64px;
+        width: 65px;
+        height: 65px;
+    }
+
+    &.global-menu-icon-hamburger1 {
+        background: url($staticpathGlobalMenuIcon) -25px 6px no-repeat;
+        width: 25px;
+        height: 25px;
+    }
+
+    &.global-menu-icon-hamburger2 {
+        background: url($staticpathGlobalMenuIcon) 0px 6px no-repeat;
+        width: 25px;
+        height: 25px;
+    }
+
+    &.home-top-right-team {
+        background: url($staticpathHomeTopRight) 0px 2px;
+        width: 20px;
+        height: 25px;
+    }
+
+    &.home-top-right-report {
+        background: url($staticpathHomeTopRight) -28px 2px;
+        width: 20px;
+        height: 25px;
+    }
+
+    &.home-top-right-lecture {
+        background: url($staticpathHomeTopRight) -64px 5px;
+        width: 20px;
+        height: 25px;
+    }
+
+    &.home-top-right-home {
+        background: url($staticpathHomeTopRight) -94px 3px;
+        width: 20px;
+        height: 25px;
+    }
+
+    &.cpij-logo-leaf {
+        background: url($staticpathCpijLogo) 0px 0px;
+        width: 320px;
+        height: 350px;
+    }
+
+    &.cpij-logo-cpig-logo {
+        background: url($staticpathCpijLogo) -360px 0px;
+        width: 253px;
+        height: 300px;
+    }
+
+    &.cilrap-HELM-logo-regjeringen {
+        background: url($staticpathCilrem-Helm-logo) 0px 16px;
+        width: 34px;
+        height: 39px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &.cilrap-HELM-logo-cilrap {
+        background: url($staticpathCilrem-Helm-logo) -10px 75px;
+        width: 165px;
+        height: 40px;
+    }
+
+    &.cilrap-HELM-logo-INPA {
+        background: url($staticpathCilrem-Helm-logo) -300px 1px;
+        width: 225px;
+        height: 100px;
+    }
+}

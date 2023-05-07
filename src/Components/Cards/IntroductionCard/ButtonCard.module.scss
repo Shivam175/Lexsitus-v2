@@ -1,0 +1,84 @@
+@import "../../../Styles/_variables.scss";
+
+.button_card {
+    width: 100%;
+    height: 150px;
+
+    .button_card_container {
+        margin-bottom: 3px;
+        position: relative;
+        cursor: pointer;
+
+        .button_card_image {
+            max-height: 130px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .button_card_image:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 18px;
+            background: rgba(33, 33, 33, 0.3);
+        }
+
+        .button_card_display {
+            margin: 0;
+            display: flex;
+            gap: 1px;
+            width: 100%;
+            text-align: center;
+            background: $lxsGrey9;
+
+            .button_card_button {
+                min-height: inherit;
+                height: 18px;
+                line-height: 10px;
+                font-size: 10px;
+                flex: 1;
+                text-transform: inherit;
+                font-weight: 400;
+                background: $lxsGrey9;
+                color: $white;
+                font-family: $fontFamilyBlack;
+                transition: .3s ease-out;
+                letter-spacing: 0.5px;
+                box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%),
+                0 1px 5px 0 rgb(0 0 0 / 12%),
+                0 3px 1px -2px rgb(0 0 0 / 20%);
+            }
+
+            .language_btn_spacing {
+                border-right: 2px solid $lxsGrey7;
+            }
+
+            .button_card_button:hover {
+                background: $lxsPurple2;
+            }
+        }
+
+        .button_card_name {
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            margin-bottom: 2px;
+            color: $white;
+            font-size: 14px;
+            bottom: 20px;
+            line-height: 1.1;
+            font-weight: 400;
+            font-family: $fontFamilyBlack;
+        }
+    }
+}
+
+.story-container {
+    max-width: 300px;
+}

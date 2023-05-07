@@ -1,0 +1,110 @@
+import { type ComponentStory, type ComponentMeta } from "@storybook/react";
+import HtmlDocument from "./index";
+
+// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+const StoryElement: ComponentMeta<typeof HtmlDocument> = {
+    title: "Example/HtmlDocument",
+    component: HtmlDocument,
+    // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
+    args: {},
+};
+
+const data = ` <div className="intro-page"><a id="page-image-link" href="/en/help?slug=how-to-use-lexsitus-lectures"><img
+        src="/img/lectures-thumbnail.svg" /></a>
+    <p className="no-indent">Welcome to Lexsitus-Lectures, the audio-visual resource of Lexsitus. Lexsitus-Lectures offers
+free access to more than
+230 lectures in English (and several lectures spoken in other languages). There are more
+than 55 lecturers, among them some of the leading experts in the world on international criminal law and a
+number of
+practitioners from international criminal jurisdictions.</p>
+    <p> All lectures are subtitled in the spoken language. The more than 230 English lectures are also subtitled in
+Arabic, French and Persian.The subtitle button is easy to find in the
+lower-right corner of the video screen once you have started a film. The tutorial film linked to above shows you
+where
+you find the films and how you can play them.</p>
+    <p>Most lectures are classified as ‘Introductory’, some as ‘Advanced’. The ‘Advanced’ lectures are usually 30
+minutes or
+longer, or they address a more specialised aspect or context of a provision.</p>
+    <p>All articles and main provisions of the Statute of the International Criminal Court are covered by at least one
+introductory lecture; quite a number of the more important provisions, by an advanced lecture. In the coming
+years,
+select advanced lectures will be added to Lexsitus.</p>
+    <p> You find the links to the films in the red menu on the left. When you click on the provision that you are
+interested in,
+the list of relevant films will open in the central field of the page (where you are reading this). When you
+click on
+the film that seems most relevant to you, three sub-fields open in the central field: the video screen at the
+upper-centre of the page; below on the left, the registered search data for this particular film; and on the
+right, any
+other films that may be available on the selected article. </p>
+
+
+    <p> Among the search- or metadata for each film you find the persistent URLs of the lecture in Lexsitus and of the
+written transcript of the lecture as a
+downloadable PDF-file in the ICC Legal Tools Database. As both the film and the separate transcript file have
+permanent
+URLs, you can safely hyperlink to either in your own writing and publications. You simply click on the copy-icon
+above
+and paste it into the notes field on the right or directly into your own document. If you have logged into
+Lexsitus (see
+the user-icon at the upper corner on the far right), you can also save the film in your personalised
+reading list
+by clicking on the plus-icon next to the copy-icon.</p>
+    <p>
+The logical structure of Lexsitus is based on the Statute of the International Criminal Court. On the far-left
+side, you
+can always consult the Statute and the Rules of Procedure and Evidence of the Court when you work or study in
+Lexsitus.
+The Lectures supplement these and other textual resources in Lexsitus, such as the CLICC commentary. In the row
+immediately above, you see and can access all the available Lexsitus resources.
+    </p>
+    <p>
+The above-mentioned A tutorial on Lexsitus-Lectures by Antonio Angotti is available <a
+            href="/en/help?slug=how-to-use-lexsitus-lectures">here</a>.
+    </p>
+
+    <p> Dr. Jelena Plamenac has recorded an introduction to the Arabic Lexsitus-Lectures (with Arabic subtitles) <a
+        href="/en/help?slug=plamenac-lexsitus-lectures-arabic">here</a>. Diakonia International Humanitarian Law Centre
+has paid for the translation of the subtitles into Arabic, undertaken by
+academics in Beirut. Dr. Plamenac has also helped facilitate the additional lectures which have been recorded in
+Arabic.
+    </p>
+    <p>
+The translation of the Lexsitus-Lectures subtitles into French have been undertaken in 2020-2021 by the Clinique
+de
+droit international pénal et humanitaire (Université Laval, Faculty of Law), with financial support from the
+International Nuremberg Principles Academy (whose lawyers Natacha Bracq and Anabela Atanásio Alves have worked
+on the
+project) and in-kind support from the Canadian Partnership for International Justice. Laval’s French Production
+Team was
+led by Fannie Lafontaine, Érick Sullivan and Virginie Lefèbvre, and included the members Florence
+Abraham-Laforest,
+Kimberley Baronet, Cyril Carlier, Laurence Katherine Fernandes Duceppe, Léa-Marie Gagnon, Robin Gusto, Moussa
+Bienvenu
+Haba, Sabrine Kani, Idrissa Luqman Cissé, Alexandra Magaloff, Camille Marquis-Bissonnette, Rachel Myriam
+Sarfati,
+Anne-Marie Simard and Marie-Alix Éveline Talhouët.
+    </p>
+    <p>
+The Persian translation of the Lexsitus-Lectures subtitles has been undertaken by Dr. Mohammad H. Zakerhossein.
+He has
+also helped facilitate the additional lectures which have been recorded in Persian.
+    </p>
+    <p>
+The Norwegian Ministry of Foreign Affairs has contributed financially to the making of Lexsitus, including the
+Lexsitus-Lectures resource.
+    </p>
+    </div>`;
+
+export default StoryElement;
+
+// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
+const Template: ComponentStory<typeof HtmlDocument> = (args) => (
+    <HtmlDocument {...args} />
+);
+
+export const Default = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Default.args = {
+    data,
+};

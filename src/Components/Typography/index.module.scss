@@ -1,0 +1,64 @@
+@import "../../Styles/_variables.scss";
+
+.h1 {
+    font-size: $fontDisplay2;
+    font-family: $fontFamilyBlack;
+    line-height: $lineHeightSmall;
+}
+
+.h2 {
+    font-size: $fontDisplay1;
+    font-family: $fontFamilyBlack;
+    line-height: $lineHeightSmall;
+}
+
+.h3 {
+    font-size: $fontHeadline;
+    font-family: $fontFamilyBlack;
+    line-height: $lineHeightSmall;
+}
+
+.h4 {
+    font-size: $fontTitle;
+    font-family: $fontFamilyBlack;
+    line-height: $lineHeightSmall;
+}
+
+.h5 {
+    font-size: $fontSubheading;
+    font-family: $fontFamilyBlack;
+    line-height: $lineHeightSmall;
+}
+
+.h6 {
+    font-size: $fontBody;
+    font-family: $fontFamilyBlack;
+    line-height: $lineHeightSmall;
+}
+
+.body {
+    font-size: $fontSmall;
+    font-family: $fontFamilyArial;
+    line-height: $lineHeightSmall;
+}
+
+.small, .caption {
+    font-size: $fontMicro;
+    font-family: $fontFamilyBlack;
+    line-height: $lineHeightSmall;
+}
+
+.strong, .b, .caption {
+    font-weight: $fontWeightBold;
+}
+
+.span {
+    font-size: $fontBody;
+    font-family: $fontFamilyBlack;
+    line-height: $lineHeightBig;
+}
+
+.a {
+    color: $color_anchorTag;
+}
+

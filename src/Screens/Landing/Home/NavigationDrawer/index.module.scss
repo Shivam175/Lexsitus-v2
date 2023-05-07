@@ -1,0 +1,32 @@
+@import "../../../../Styles/_variables.scss";
+
+$drawerWidth: 330px;
+
+.navigation_drawer {
+    padding-top: $headerHeight;
+
+    .menuContainer{
+        max-width: $drawerWidth;
+        margin: 0 auto;
+    }
+
+    .menu_divider {
+        height: 1px;
+        width: 100%;
+        background: $lxsGrey11;
+    }
+
+    .button-container {
+        .button {
+            display: inline-block;
+            color: $grey7;
+            height: 40px;
+            text-align: center;
+            line-height: 30px;
+            align-items: center;
+            padding-top: 5px;
+            width: 100%;
+            font-size: $fontSubheading;
+        }
+    }
+}
